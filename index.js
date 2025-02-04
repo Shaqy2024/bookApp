@@ -66,4 +66,4 @@ if(result){
 // app.get("/",(req,res)=>{
 //     res.send("app is working ....")
 // })
-app.listen(5000)
+app.listen(3000)
