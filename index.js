@@ -15,6 +15,9 @@ let result = await user.save();
     res.send(result)
 })
 
+app.get("/",(req,res)=>{
+    res.send("sakib raza")
+})
 
 app.post('/login' , async (req,res)=>{
     console.log(req.body)
